@@ -1,0 +1,60 @@
+root {
+  border: 50px solid white;
+  border-top: 20px solid white;
+  margin-bottom: 100px;
+}
+
+/*roadtrip Data display style*/
+.viewRoadtrip #text {
+  display: block;
+  /*    border: solid black 1px;*/
+  margin-left: 10%;
+  width: 60%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+.viewRoadtrip #mapSpace {
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 80%;
+  padding: 10px 10px 10px 10px;
+  border: solid #f4f2ef 5px;
+  overflow: hidden;
+  /*border: solid black 1px;*/
+}
+
+.viewRoadtrip #map {
+  position: static !important;
+  height: 230px;
+}
+
+.viewRoadtrip #map div:first-child {
+  position: relative !important;
+}
+
+.viewRoadtrip #profilePrev {
+  width: 15.6%;
+  position: relative;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  /*border: solid black 3px;*/
+  float: right;
+}
+
+/*Buttons*/
+.viewRoadtrip #sendMessgWrapper {
+  float: right;
+  width: 300px;
+}
+.viewRoadtrip #sendMessg {
+  background: url(../IMG/global/stripeBlue.jpg) 0 0 no-repeat;
+  /*position: relative;*/
+  padding: 10px 10px 10px 10px;
+  background-size: 100% 100%;
+  margin-top: 20px;
+  color: #ec444a;
+  font-weight: 900;
+  float: right;
+  margin-right: 10%;
+}

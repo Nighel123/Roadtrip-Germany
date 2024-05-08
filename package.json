@@ -1,0 +1,15 @@
+{
+  "name": "full-stack-app",
+  "private": true,
+  "workspaces": [
+    "common"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd server && npm start",
+    "start:backend": "cd client && npm start"
+  }
+}

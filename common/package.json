@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "common",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.3.3"
+  }
+}

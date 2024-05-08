@@ -1,0 +1,88 @@
+.Home * {
+  border: 0px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+.Home html {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.Home body {
+  font-family: sans-serif;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.Home header {
+  width: 85%;
+  background: url(../IMG/global/roadtripGermany.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 35%; /*im Verhältniss zur Breite des Containers*/
+  background-size: 100% 100%;
+  margin-bottom: 30px;
+  z-index: -1;
+  overflow: visible;
+}
+
+/*Buttons to log in*/
+.Home #logIn {
+  width: 13.5%;
+  float: left;
+  margin: 0px 90% 0px 10px;
+  background: url(../IMG/global/einloggenBlack.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 5.5%;
+  background-size: 100% 100%;
+}
+.Home #register {
+  width: 8%;
+  float: left;
+  margin: -10px 0px 0px 14px;
+  background: url(../IMG/global/registrierenBlack.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 3%;
+  background-size: 100% 100%;
+}
+.Home #logOut {
+  width: 13.5%;
+  float: left;
+  margin: 0px 0px 0px 10px;
+  background: url(../IMG/global/ausloggen.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 5.5%;
+  background-size: 100% 100%;
+}
+
+/*Botton for messages*/
+.Home #messages {
+  width: 5%;
+  float: right;
+  margin: 0px 10px 0px 0px;
+  background: url(../IMG/global/messagesIcon.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 5%;
+  background-size: 100% 100%;
+}
+
+/*Buttons to navigate to other pages*/
+.Home #actualRouts {
+  width: 85%;
+  background: url(../IMG/home/aktuelleRouten.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 15%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  margin-bottom: 58px;
+  display: block;
+  border: solid black 4px;
+}
+.Home #insertRoadtrip {
+  width: 85%;
+  background: url(../IMG/home/eigenenRoadtripMachen.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 16%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  display: block;
+  border: solid black 4px;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+.register p[role="alert"] {
+  color: red;
+  margin-top: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+  /*Breite und Höhe wird bis zum Anfang des Margins gemessen!*/
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  font-family: "Open Sans", sans-serif;
+  /*Schrifteinstellungen*/
+  font-weight: 200;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px) {
+  * {
+    font-size: 0.4em !important;
+  }
+  .insertRoadtrip form {
+    padding: 1%;
+  }
+}
+
+#root {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+#homeButton {
+  background: url(../IMG/global/homeButton.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 9%; /*im Verhältniss zur Breite des Containers*/
+  background-size: 100% 100%;
+  width: 20%;
+  float: right;
+}
+
+.home header {
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+body {
+  /*background-color: #f5f5f5;*/
+}

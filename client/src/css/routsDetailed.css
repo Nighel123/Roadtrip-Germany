@@ -1,0 +1,113 @@
+.routesDetailed * {
+  font-size: 13px;
+}
+body {
+  border: 1px solid white;
+}
+
+/*List of Roadtrips and Map with routs on it*/
+.routesDetailed #outerFrame {
+  width: 100%;
+  background: url(../IMG/routsDetailed/map.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 55%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  float: left;
+  margin-bottom: 45px;
+}
+.routesDetailed #innerFrame {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  width: 96%;
+  height: 0px;
+  padding: 0px 0px 51% 0px;
+  background-color: white;
+  color: #231e38;
+  border: #65ace2 solid 2px;
+}
+
+/*Roadtrips List*/
+.routesDetailed #ListFrame {
+  width: 30%;
+  height: 0px;
+  padding: 0px 0px 53.5% 0px;
+  color: #231e38;
+  border-right: #65ace2 solid 2px;
+  overflow-y: scroll;
+  float: left;
+}
+.routesDetailed #RoadtripsList {
+  width: 100%;
+  height: 0px;
+  padding: 0px 0px 48% 0px;
+  background-color: white;
+  color: #231e38;
+}
+
+/*Table Style*/
+.routesDetailed #roadtripslist tr:nth-of-type(even) {
+  background-color: #f9f5ff;
+}
+.routesDetailed #roadtripslist tr {
+  border-bottom: 1px solid #d3dbf8;
+}
+.routesDetailed #roadtripslist td {
+  padding: 5px 0px 5px 0px;
+  width: 25%;
+  text-align: center;
+}
+
+/*Map with Routs on it*/
+.routesDetailed #MapFrame {
+  width: 70%;
+  height: 0px;
+  padding: 0px 0px 53% 0px;
+  background-color: white;
+  color: #231e38;
+  float: left;
+}
+.routesDetailed #mapSpace {
+  width: 100%;
+  position: relative;
+  padding-bottom: 76.2%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100.5% 100%;
+  float: left;
+  overflow: hidden;
+}
+
+/*profile preview-picture*/
+.routesDetailed #profilePrev {
+  width: 15.6%;
+  background: url(../IMG/global/profilePrev.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 23%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  margin-right: 250px;
+  margin-bottom: 70px;
+  float: left;
+}
+
+/*buttons*/
+.routesDetailed #insertRoadtrip {
+  background: url(../IMG/global/roadtripEintragen.jpg) 0 0 no-repeat;
+  width: 33%;
+  position: relative;
+  background-size: 100% 100%;
+  padding-bottom: 8%;
+  float: right;
+}
+
+/*form*/
+.routesDetailed textarea {
+  width: 63.9%;
+  padding: 10px 10px 25% 10px;
+  border: #3c6cb9 solid 2px;
+  float: right;
+  margin-bottom: 70px;
+}
+.routesDetailed input {
+  margin: 10px;
+  border: 2px #3c6cb9 solid;
+  padding: 3px;
+}

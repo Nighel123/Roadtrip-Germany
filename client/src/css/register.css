@@ -1,0 +1,85 @@
+.register p {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 5%;
+}
+.register #registerForm p:first-child {
+  margin-top: 0px;
+}
+body {
+  margin: 0px 1% 1% 1%;
+}
+.register #content {
+  overflow: auto;
+}
+.register #succErrMessg {
+  color: red;
+}
+.register header {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  color: #555555;
+}
+/*error Messages*/
+.register ul li {
+  color: crimson;
+}
+
+.register #day {
+  margin-right: 5px;
+}
+
+.register #month {
+  margin-right: 5px;
+}
+
+/*register Image*/
+.register #registerSide {
+  background: url(../IMG/register/registerSide.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+  width: 66%;
+  padding-bottom: 50%;
+  float: left;
+  /*border: 1px #94949A solid;*/
+}
+
+/*Headline register*/
+.register #registerFrame {
+  width: 31%;
+  /*margin:0 auto;*/ /*centers the div*/
+  padding: 3%;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  /*border: 1px #94949A solid;*/
+  float: right;
+  padding-bottom: 20%;
+  position: relative;
+  background: #f8f8f8;
+}
+.register input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px #94949a solid;
+  padding: 1%;
+}
+.register #usrName {
+  margin-top: 5px;
+}
+
+/*Buttons*/
+.register #registrieren {
+  background: url(../IMG/register/registrieren.jpg) 0 0 no-repeat;
+  width: 60%;
+  position: absolute;
+  background-size: 100% 100%;
+  padding-bottom: 16%;
+  border: 0px;
+  margin: 0px;
+  margin-top: 5px;
+  right: 20px;
+  bottom: 20px;
+}

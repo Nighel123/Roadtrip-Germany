@@ -1,0 +1,143 @@
+.RoutesOverview {
+  border-top: 10px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+#map {
+  position: static !important;
+}
+
+.RoutesOverview header {
+  background: url(../IMG/global/roadtripGermany.jpg) 0 0 no-repeat;
+  position: relative;
+  width: 50%;
+  padding-bottom: 20%;
+  margin-bottom: 30px;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Container of the list of Roadtrips*/
+.RoutesOverview #outerFrame {
+  width: 50%;
+  background: url(../IMG/routsOverview/blueFrame.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 31.5%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  border-right: 22.3px solid white;
+  float: left;
+  margin-bottom: 5%;
+}
+.RoutesOverview #innerFrame {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  height: 0px;
+  padding: 0px 0px 50% 0px;
+  background-color: white;
+  color: #231e38;
+  border: #65ace2 solid 2px;
+  overflow-y: scroll;
+}
+.RoutesOverview #RoadtripsList {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  padding: 0px 0px 48% 0px;
+  background-color: white;
+  color: #231e38;
+}
+
+/*Roadtrip-List*/
+.RoutesOverview table tr:nth-of-type(even) {
+  background-color: #f9f5ff;
+}
+.RoutesOverview tr {
+  border-bottom: 1px solid #d3dbf8;
+}
+.RoutesOverview td {
+  padding: 5px 0px 5px 0px;
+  width: 25%;
+  text-align: center;
+}
+
+/*Karte mit Routen drauf*/
+.RoutesOverview #OuterFrame {
+  width: 50%;
+  background: url(../IMG/routsOverview/redFrame.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 31.5%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  border-left: 22.3px solid white;
+  float: left;
+  margin-bottom: 5%;
+}
+.RoutesOverview #InnerFrame {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  width: 94%;
+  height: 0px;
+  padding: 0px 0px 59% 0px;
+  background-color: white;
+  color: #231e38;
+  border: #a84337 solid 2px;
+  overflow-y: scroll;
+}
+.RoutesOverview #mapSpace {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  padding: 0px 0px 63.3% 0px;
+  background-color: white;
+  color: #231e38;
+}
+
+/*Buttons*/
+.RoutesOverview #insertRoadtrip {
+  width: 50%;
+  background: url(../IMG/routsOverview/eigeneReiseMachen.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 10%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  border-right: 22.3px solid white;
+  float: left;
+  margin-bottom: 30px;
+}
+.RoutesOverview #routsDetailed {
+  width: 50%;
+  background: url(../IMG/routsOverview/reiseAnsehen.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 10%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  border-left: 22.3px solid white;
+  float: left;
+  margin-bottom: 30px;
+}
+
+/*Biler am unteren Bildschirmrand*/
+.RoutesOverview #picture1 {
+  background: url(../IMG/routsOverview/img1.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 35%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 101% 100%;
+  float: left;
+  margin-bottom: 45px;
+  width: 100%;
+  border: 10px solid #f4f2ef;
+  /*border: solid #CDC791 3px;*/
+}
+.RoutesOverview #picture2 {
+  background: url(../IMG/routsOverview/img2.jpg) 0 0 no-repeat;
+  position: relative;
+  padding-bottom: 25%; /*berechnet sich aus Höhe:Breite*/
+  background-size: 100% 100%;
+  float: left;
+  margin-bottom: 45px;
+  width: 100%;
+  border: 10px solid #f4f2ef;
+  /*border: solid #1F4643 3px;*/
+}

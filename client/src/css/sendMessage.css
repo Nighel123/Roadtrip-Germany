@@ -1,0 +1,53 @@
+body{
+    margin: 20px 50px 0px 50px;
+}
+header{
+    margin-bottom: 50px solid white;
+}
+textarea{
+    width: 75%;
+    padding: 10px 10px 30% 10px;
+    border: solid 2px #3C6CB9;
+}
+input{
+    margin: 10px 10px 10px 0px;
+    border:2px #3C6CB9 solid;
+    padding: 3px;
+}
+#home_button{
+    background: url(../img_global/home_button.jpg) 0 0 no-repeat;
+    position: relative;
+    padding-bottom: 7%; /*im Verhältniss zur Breite des Containers*/   
+    background-size: 100% 100%;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 80%;
+    margin-bottom: 40px;
+    clear: right;
+}
+#s{
+    background: url(../img_global/blauer_streifen.jpg) 0 0 no-repeat;
+    position: relative;
+    padding-bottom: 1.5%; /*im Verhältniss zur Breite des Containers*/
+    padding-top:1.5%;
+    padding-right: 1%;
+    padding-left:1%;
+    background-size: 100% 100%;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 0%;
+    margin-right: 50%;
+    color: #EC444A;
+    font-weight: 900;
+}
+#betreff{
+    clear: right;
+    margin-right: 70%;
+}
+form{
+    margin-left:25%;
+}
+#fehler{
+    text-align: center;
+    margin-top: 200px;
+}

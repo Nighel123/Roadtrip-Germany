@@ -1,0 +1,17 @@
+*{
+	margin: 0px; 
+	padding: 0px;
+}
+body{
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+header{
+	margin-bottom: 90px;
+}
+#message{
+	position: relative;
+	padding-bottom: 25%;
+	width: 100%;
+}

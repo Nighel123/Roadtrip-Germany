@@ -1,0 +1,48 @@
+*{
+	margin: 0px; 
+	padding: 0px;
+	border: black solid 10px;
+}
+body{
+	width: 100%;
+	background-color: #fff;
+	border: 0px solid black;
+}
+html{
+	border: 0px solid black;
+}
+a{
+	border: 0px solid black;
+}
+header{
+	width: 100%;
+	background: url(../IMG/index/header.jpg) 0 0 no-repeat;
+	position: relative;
+	padding-bottom: 27%; /*berechnet sich im verhältniss zur möglichen(!) breite des Objektes*/
+	background-size: 100% 100%;
+	margin-bottom: 0px;
+}
+#middle{
+	width: 100%;
+	background: url(../IMG/index/middle.jpg) 0 0 no-repeat;
+	position: relative;
+	padding-bottom: 25%; /*berechnet sich im verhältniss zur möglichen(!) breite des Objektes*/
+	background-size: 100% 100%;
+}
+
+#imageBottomLeft{
+	width: 50%;
+	background: url(../IMG/index/imageBottomLeft.jpg) 0 0 no-repeat;
+	position: relative;
+	padding-bottom: 66.31%; /*berechnet sich aus Höhe:Breite*/
+	background-size: 100% 100%;
+	float:left;
+}
+#imageBottomRight{
+	width: 50%;
+	background: url(../IMG/index/imageBottomRight.jpg) 0 0 no-repeat;
+	position: relative;
+	padding-bottom: 66.31%; /*berechnet sich aus Höhe:Breite*/
+	background-size: 100% 100%;
+	float:left;
+}

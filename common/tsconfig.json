@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "declaration": true,
+    "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"],
+  "target": "es2017",
+  "module": "commonjs",
+  "lib": ["es2017"]
+}
